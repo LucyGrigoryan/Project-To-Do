@@ -1,0 +1,58 @@
+* {
+    box-sizing:border-box;
+  }
+  .main {
+    background-color: rgb(76, 128, 111);
+    color:rgb(233, 239, 239);
+    text-align:center;
+    padding: 30px 100px;
+
+  }
+  .main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  Input{
+    margin: 20;
+    padding: 10px;
+    width: 75%;
+    border:none;
+    float: left;
+    font-size: 15px;
+  }
+  .addBtn{
+    width: 25%;
+    padding:10px;
+    text-align: center;
+    float: left;
+    background-color: rgb(179, 220, 208);
+    color:rgb(76, 128, 111);
+    cursor: pointer;
+  }
+ .close{
+    color: rgb(37, 1, 37);
+    right: 10px;
+    position: absolute;
+ }
+ .close:hover{
+    background-color:rgb(76, 128, 111);
+    color:rgb(219, 192, 215);
+ }
+  #myUl{
+    background-color: rgb(219, 192, 215);
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    font-size: 18px;    
+    color:rgb(113, 65, 105);
+  }
